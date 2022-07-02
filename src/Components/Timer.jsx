@@ -6,11 +6,11 @@ export default function TimercountSettimeout(){
     setTimeout(()=>{
       setCount(count+1)
     },1000)
-  },[count])
+  },[])
   return(
     <div>
       <h1>Counter:{count}</h1>
       <h3>Update every second</h3>
       </div>
   )
-}
+}  
